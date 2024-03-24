@@ -39,6 +39,7 @@
 
 
     <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -54,6 +55,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/user"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -69,6 +71,7 @@
         android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -85,6 +88,7 @@
         app:passwordToggleEnabled="true" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -95,14 +99,6 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="20sp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/remember_me" />
 
 
 </LinearLayout>
